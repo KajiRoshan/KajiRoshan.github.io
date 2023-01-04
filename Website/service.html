@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <nav>
+	<div class="logo">
+		  <img src="Pictures\logoRED.png" alt="Snow">
+	</div>
+	</nav>
+	<div id="mySide" class="heading">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+		<a href="index.html">Home</a></li>
+		<a href="service.html">Services</a></li>
+		<a href="contact.html">Contact</a></li>
+		<a href="Things.html">Things to do </a>
+	</div>
+	  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+	  
+	  <script>
+	  function openNav() {
+		document.getElementById("mySide").style.width = "250px";
+	  }
+	  
+	  function closeNav() {
+		document.getElementById("mySide").style.width = "0";
+	  }
+	  </script>
+	<div class="serstart">
+		<h1>Services</h1>
+		<p>There are various services offered around Calgary. There is the famous Calgary Transit and also car and room rentals.</p>
+	</div>
+
+	<div class="row">
+		<div class="services">
+			<a href="Ticket.html"><img src="Pictures\calgarttransit.jpg" width="100%"></a> <!-- image from https://c1.staticflickr.com/5/4052/4338947555_a0ee78b9e7_z.jpg?zz=1-->
+			<h3>Calgary Transit</h3>
+			<p>If you are planing to travel around the city then, the cheapest option you can have is to get the Calgary Transit. It is the backbone of transportation in Calgary. 
+			There are many buses and routes which you can use to get to different location around the city. City of calgary do provide tickets to get the service. 
+			You can buy ticket online or during the time of travel.</p>
+		</div>
+		
+		<div class="services">
+			<a href="Rental.html"><img src="Pictures\rent.jpg" width="100%"></a> <!-- image from https://fox59.com/news/which-rental-car-company-usually-has-the-lowest-prices/-->
+			<h3>Rental</h3>
+			<p>You can rent the car in the city of calgary and visit many places as you like. Price start as cheap as $50/day depending on the vehicle you want. 
+			There are many vehicles available to rent depending upon your budget. You can get sedan to SUV as well.</p>
+			
+		</div>
+		
+		<div class="services">
+			<a href="https://www.airbnb.ca/s/Calgary--Alberta--Canada/homes?tab_id=home_tab&refinement_paths%5B%5D=%2Fhomes&flexible_trip_lengths%5B%5D=one_week&price_filter_input_type=0&price_filter_num_nights=5&query=Calgary%2C%20AB&place_id=ChIJ1T-EnwNwcVMROrZStrE7bSY&date_picker_type=flexible_dates&source=structured_search_input_header&search_type=autocomplete_click" target="_blank"><img src="Pictures/airbnb.jpg" width="80%"></a> <!-- image from https://www.rentcafe.com/apartments/ab/calgary/calgary-place-apartments-new/default.aspx-->
+			<h3>Accommodation</h3>
+			<p>If you are looking for something cheap and in budget while travelling you can choose airbnb for the stay rather than paying more in hotels. You will have the privacy you need and can feel the real life to live in Calgary. </p>
+			
+		</div>
+		
+		
+</body>
+</html>

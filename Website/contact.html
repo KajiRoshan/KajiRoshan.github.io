@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    <nav>
+		<div class="logo">
+		  <img src="Pictures\logoRED.png" alt="Snow">
+		</div>
+		<ui>
+	   
+		</ui>
+		</nav>
+	  <div class="logo">
+	   
+	</div>
+	  <div id="mySide" class="heading">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="index.html">Home</a></li>
+		  <a href="service.html">Services</a></li>
+		  <a href="contact.html">Contact</a></li>
+		  <a href="Things.html">Things to do </a>
+	  </div>
+	  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+	  
+	  <script>
+	  function openNav() {
+		document.getElementById("mySide").style.width = "250px";
+	  }
+	  
+	  function closeNav() {
+		document.getElementById("mySide").style.width = "0";
+	  }
+	  </script>
+    <div class="details">
+        <h3>For Calgary Transit</h3>
+        <p>If you have any issue witht the ticket or bus related querries then feel free to contact Calgary Transit for more Information.</p>
+        <p><a href="https://www.calgarytransit.com/content/transit/en/home/contact-us.html" target="_blank">Click here</a></p> 
+    </div>
+    <div class="website">
+        <h3>For website</h3>
+        <p> If you have any querries about this website contact us.</p>
+
+        <a href="mailto: Roshan.Shrestha@edu.sait.ca"><button class="button backbutton">Send Email</button></a>
+        <br>
+        <h3>Head Office</h3>
+    </div>
+    <div class="map">
+        <p> <iframe class="google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1723.5110502651362!2d-114.09054191500752!3d51.066762050780376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53716f919a0d75af%3A0xc62fcfb196e70028!2sAldred%20Centre!5e0!3m2!1sen!2sca!4v1669058334209!5m2!1sen!2sca" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+    </div>
+    <div class="contact">
+      <form action="form_handler.php" method="post">
+      <input type="text" name="name" placeholder="Enter your Name" required>
+      <input type="email" name="email" placeholder="Enter email address" required>
+      <input type="text" name="subject" placeholder="Enter your subject" required>
+      <textarea rows="8" name="message" placeholder="Message" required></textarea>
+      <button type="submit" name="submit">Send Message</button>
+      </form>
+  </div>
+
+    
+</body>
+<hr>
+<div class="footer">
+
+    <a href="about.html">About Us</a>
+</div>
+  
+        <div class="foot">
+          <p>Calgary Guide is designed to be an aid towards people who desire exploring the Calgary City of Alberta.</p>
+          <p>Copyright &copy; 2022 by APL Company. All rights Reserved.</p>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <a href="https://www.instagram.com/accounts/login/" target="_blank"> <i class="fa fa-instagram" style="font-size:48px;"></a></i>
+          <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook" style="font-size:48px;"></a></i>
+          <a href="https://twitter.com/?lang=en-ca" target="_blank"> <i class="fa fa-twitter" style="font-size:48px;"></a></i>
+          <a href="https://www.youtube.com/"" target="_blank"> <i class="fa fa-youtube" style="font-size:48px;"></a></i>
+          <!-- referenced https://www.w3schools.com/icons/tryit.asp?filename=tryicons_fa-instagram-->
+        </div>
+</html>
+    
